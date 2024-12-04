@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Assignment</title>
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Internal CSS -->
+    <style>
+        /* Element Selector: Change font size of all headings */
+        h1, h2 {
+            font-size: 24px;
+            color: darkblue;
+        }
+
+        /* Class Selector: Background color for specific sections */
+        .highlight {
+            background-color: lightyellow;
+            padding: 10px;
+        }
+
+        /* ID Selector: Add border to a specific element */
+        #unique {
+            border: 2px solid red;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Part 1: CSS Basics -->
+    <h1>Welcome to CSS Basics</h1>
+    <p>This is a simple paragraph to demonstrate CSS selectors.</p>
+    <div class="highlight">This section has a class selector applied.</div>
+    <div id="unique">This section has an ID selector applied.</div>
+
+    <!-- Part 2: Inline, Internal, and External CSS -->
+    <p style="color: green;">This paragraph has inline CSS applied.</p>
+    <h2>Internal CSS Example</h2>
+    <p>This paragraph is styled using internal CSS defined within the `<style>` tag in the head section.</p>
+    
+    <h2>External CSS Example</h2>
+    <p>Click the link below to see hover effects:</p>
+    <a href="#">Hover over this link</a>
+</body>
+</html>
